@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "💼 Web based resume",
   "scripts": {
-    "start": "npm run dev",
-    "dev": "run-s clean eleventy:dev",
-    "build": "run-s clean eleventy:prod",
     "build:debug": "run-s clean eleventy:debug",
+    "build": "run-s clean eleventy:prod",
+    "clean": "rm -rf dist",
+    "dev": "run-s clean eleventy:dev",
+    "format": "prettier --write \"src/**/*.(js|ts|css|scss)\"",
+    "lint": "eslint --fix \"src/**/*.(js|ts)\"",
+    "eleventy:debug": "cross-env ELEVENTY_ENV=production DEBUG=Eleventy* eleventy --dryrun",
     "eleventy:dev": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "eleventy:prod": "cross-env ELEVENTY_ENV=production eleventy",
-    "eleventy:debug": "cross-env ELEVENTY_ENV=production DEBUG=Eleventy* eleventy --dryrun",
-    "clean": "del-cli dist"
+    "start": "npm run dev"
   },
   "repository": {
     "type": "git",
@@ -26,7 +28,6 @@
     "critical": "^3.1.0",
     "cssesc": "^3.0.0",
     "cssnano": "^5.0.5",
-    "del-cli": "^3.0.1",
     "focus-visible": "^5.2.0",
     "html-minifier": "^4.0.0",
     "luxon": "^1.27.0",
@@ -51,5 +52,18 @@
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.0"
+  },
+  "lint-staged": {
+    "*.(js|ts)": [
+      "npm run lint"
+    ],
+    "*.+(js|ts|css|scss)": [
+      "npm run format"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
