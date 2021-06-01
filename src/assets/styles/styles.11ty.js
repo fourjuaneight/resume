@@ -1,58 +1,48 @@
-const fs = require('fs');
-const path = require('path');
-const sass = require('node-sass');
-const CleanCSS = require('clean-css');
-const cssesc = require('cssesc');
+/* eslint-disable class-methods-use-this */
+const { join } = require('path');
+const { promisify } = require('util');
 
+const cssnano = require('cssnano');
+const cssesc = require('cssesc');
+const postcss = require('postcss');
+const postcssPresetEnv = require('postcss-preset-env');
+const sass = require('node-sass');
+
+const renderSass = promisify(sass.render);
 const isProd = process.env.ELEVENTY_ENV === 'production';
 
-// main entry point name
+// postCSS config
+const presetEnv = postcssPresetEnv({
+  autoprefixer: {
+    flexbox: true,
+    grid: true,
+  },
+  features: {
+    'custom-properties': {
+      fallback: true,
+      preserve: true,
+    },
+  },
+  stage: 3,
+});
+// use cssnano for minification and presetEnv for prefixing config
+const postcssProcessor = postcss([cssnano, presetEnv]);
+
+// file paths
 const ENTRY_FILE_NAME = 'main.scss';
+// const inputFile = 'assets/styles/main.scss';
+const inputFile = join(__dirname, `/${ENTRY_FILE_NAME}`);
+const outputFile = 'styles.css';
 
 module.exports = class {
-  async data() {
-    const entryPath = path.join(__dirname, `/${ENTRY_FILE_NAME}`);
-
+  // template "frontmatter"
+  data() {
     return {
-      permalink: `/assets/styles/main.css`,
       eleventyExcludeFromCollections: true,
-      entryPath,
+      layout: false,
+      permalink: `/assets/styles/main.css`,
+      entryPath: inputFile,
     };
-  }
-
-  // Compile Sass to CSS,
-  // Embed Source Map in Development
-  async compile(config) {
-    return new Promise((resolve, reject) => {
-      if (!isProd) {
-        config.sourceMap = true;
-        config.sourceMapEmbed = true;
-        config.outputStyle = 'expanded';
-      }
-
-      return sass.render(config, (err, result) => {
-        if (err) {
-          return reject(err);
-        }
-        resolve(result.css.toString());
-      });
-    });
-  }
-
-  // Minify & Optimize with CleanCSS in Production
-  async minify(css) {
-    return new Promise((resolve, reject) => {
-      if (!isProd) {
-        resolve(css);
-      }
-
-      const minified = new CleanCSS().minify(css);
-      if (!minified.styles) {
-        return reject(minified.error);
-      }
-
-      resolve(minified.styles);
-    });
   }
 
   // display an error overlay when CSS build fails.
@@ -100,26 +90,31 @@ module.exports = class {
         }`;
   }
 
-  // render the CSS file
-  async render({ entryPath }) {
+  async render() {
     try {
-      const css = await this.compile({ file: entryPath });
-      const result = await this.minify(css);
+      // scss to css
+      const { css } = await renderSass({
+        file: inputFile,
+      });
 
-      return result;
-    } catch (err) {
+      // output processed file
+      return postcssProcessor
+        .process(css, {
+          from: inputFile,
+          to: outputFile,
+        })
+        .then(result => result.css);
+    } catch (error) {
       // if things go wrong
       if (isProd) {
         // throw and abort in production
-        console.error('[CSS Render]:', err);
-        throw new Error(err);
+        console.error('[CSS Render]:', error);
+        throw new Error(error);
       } else {
         // otherwise display the error overly
-        console.error('[CSS Render]:', err);
+        console.error('[CSS Render]:', error);
 
-        const msg = err.formatted || err.message;
-
-        return this.renderError(msg);
+        return this.renderError(error);
       }
     }
   }
