@@ -1,18 +1,14 @@
-const fs = require('fs');
-const path = require('path');
-const mime = require('mime/lite');
-const { DateTime } = require('luxon');
+const { join } = require('path');
+const { readFileSync } = require('fs');
+
+const { getType } = require('mime/lite');
+const { format, formatISO } = require('date-fns');
 const isEmpty = require('lodash/isEmpty');
 
 module.exports = {
-  dateToFormat: (date, format) =>
-    DateTime.fromJSDate(date, { zone: 'utc' }).toFormat(String(format)),
+  dateToFormat: (date, fmt) => format(date, fmt),
 
-  dateToISO: date =>
-    DateTime.fromJSDate(date, { zone: 'utc' }).toISO({
-      includeOffset: false,
-      suppressMilliseconds: true,
-    }),
+  dateToISO: date => formatISO(date).slice(0, -5),
 
   obfuscate: str => {
     const chars = [];
@@ -29,9 +25,9 @@ module.exports = {
   stripProtocol: str => str.replace(/(^\w+:|^)\/\//, ''),
 
   base64file: file => {
-    const filepath = path.join(__dirname, `../src/${file}`);
-    const mimeType = mime.getType(file);
-    const buffer = Buffer.from(fs.readFileSync(filepath));
+    const filepath = join(__dirname, `../src/${file}`);
+    const mimeType = getType(file);
+    const buffer = Buffer.from(readFileSync(filepath));
 
     return `data:${mimeType};base64,${buffer.toString('base64')}`;
   },
