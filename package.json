@@ -1,44 +1,55 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "An online resume",
+  "description": "💼 Web based resume",
   "scripts": {
     "start": "npm run dev",
     "dev": "run-s clean eleventy:dev",
     "build": "run-s clean eleventy:prod",
+    "build:debug": "run-s clean eleventy:debug",
     "eleventy:dev": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "eleventy:prod": "cross-env ELEVENTY_ENV=production eleventy",
-    "clean": "del-cli dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eleventy:debug": "cross-env ELEVENTY_ENV=production DEBUG=Eleventy* eleventy --dryrun",
+    "clean": "del-cli dist"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxboeck/resume"
+    "url": "https://github.com/fourjuaneight/resume"
   },
-  "author": "Max Böck",
+  "author": "Juan Villela",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "babel-loader": "^8.1.0",
-    "clean-css": "^4.2.3",
-    "critical": "^1.3.9",
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "babel-loader": "^8.2.2",
+    "clean-css": "^5.1.2",
+    "critical": "^3.1.0",
     "cssesc": "^3.0.0",
-    "del-cli": "^3.0.0",
-    "focus-visible": "^5.1.0",
+    "cssnano": "^5.0.5",
+    "del-cli": "^3.0.1",
+    "focus-visible": "^5.2.0",
     "html-minifier": "^4.0.0",
-    "luxon": "^1.23.0",
-    "markdown-it": "^10.0.0",
-    "memfs": "^3.1.2",
-    "mime": "^2.4.4",
-    "node-sass": "^4.13.1",
+    "luxon": "^1.27.0",
+    "markdown-it": "^12.0.6",
+    "memory-fs": "^0.5.0",
+    "mime": "^2.5.2",
+    "node-sass": "^6.0.0",
     "npm-run-all": "^4.1.5",
     "svg-sprite": "^1.5.0",
-    "webpack": "^4.42.1"
+    "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.2"
+    "@babel/core": "^7.14.3",
+    "@babel/eslint-parser": "^7.14.4",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.14.2",
+    "@babel/preset-env": "^7.14.4",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0"
   }
 }
