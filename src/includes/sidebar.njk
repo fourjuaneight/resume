@@ -1,6 +1,5 @@
 <aside class="sidebar">
     <div class="container">
-
         <div class="actions">
             {% if author.email %}
                 <a class="actions__btn has-tooltip" aria-label="{{ strings.labels.email }}" href="mailto:{{ author.email | obfuscate | safe }}">
@@ -16,6 +15,5 @@
                 {% icon "print" %}
             </button>
         </div>
-
     </div>
 </aside>
