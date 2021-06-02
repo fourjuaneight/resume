@@ -1,9 +1,5 @@
 # Resume
 
-An online résumé. [Demo Site](https://demo-resume.netlify.app)  
-
-![a preview of the generated résumé as a website and in print](src/assets/images/demo/resume.png)  
-
 ## Features
 
 * Fully Customizable
@@ -29,13 +25,9 @@ __Commands__
 * Run `npm start` for a development server and live reloading
 * Run `npm run build` to generate a production build
 
-Deploy a fork of this template to Netlify:
+## Customize your Resume
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/maxboeck/resume) 
-
-## Customize your Résumé
-
-To edit the content and design of your résumé, follow these steps:
+To edit the content and design of your resume, follow these steps:
 
 ### 1. Personal Details
 
@@ -166,7 +158,7 @@ Edit `entries/content/custom.md` if you want to edit freeform content to the end
 
 ### 5. Meta Data & Design
 
-Open `src/data/meta.json` and replace the `url` with the URL of your hosted résumé. You can also customize the language and color scheme here.
+Open `src/data/meta.json` and replace the `url` with the URL of your hosted resume. You can also customize the language and color scheme here.
 
 Supported properties are:
 
@@ -181,17 +173,17 @@ Supported properties are:
     <tbody>
         <tr>
             <td><code>url</code></td>
-            <td>the URL of your hosted résumé, e.g. <code>"https://my-resume.com"</code>. (no trailing slash)</td>
+            <td>the URL of your hosted resume, e.g. <code>"https://my-resume.com"</code>. (no trailing slash)</td>
             <td>required</td>
         </tr>
         <tr>
             <td><code>lang</code></td>
-            <td>the 2-digit language identifier of your résumé, e.g. "en", "de", etc.</td>
+            <td>the 2-digit language identifier of your resume, e.g. "en", "de", etc.</td>
             <td>required</td>
         </tr>
         <tr>
             <td><code>locale</code></td>
-            <td>the locale code of your résumé, e.g. "en_US", "de_DE", etc.</td>
+            <td>the locale code of your resume, e.g. "en_US", "de_DE", etc.</td>
             <td>required</td>
         </tr>
         <tr>
@@ -213,7 +205,7 @@ There are a few hardcoded english strings used in the template, such as the sect
 
 ## Credits
 
-Thanks to [Eric Bailey](https://ericwbailey.design/) for his post ["How to not make a résumé in React"](https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react.html), which gave me the idea.
+Thanks to [Eric Bailey](https://ericwbailey.design/) for his post ["How to not make a resume in React"](https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react.html), which gave me the idea.
 
 ## Colophon
 
