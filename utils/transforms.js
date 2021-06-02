@@ -35,9 +35,9 @@ module.exports = {
           html: content,
           inline: true,
           width: 1280,
-          height: 1000
+          height: 1000,
         };
-        const html = await generate(config);
+        const { html } = await generate(config);
 
         return html;
       } catch (err) {
