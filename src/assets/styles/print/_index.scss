@@ -67,6 +67,14 @@
         border-color: #b5b5b5;
     }
 
+    .entry__organization,
+    .p-summary,
+    .section--interests {
+        a[href]:after {
+            content: ' (' attr(href) ')';
+        }
+    }
+
     .vcard__avatar {
         position: static !important;
         transform: none !important;
