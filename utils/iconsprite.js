@@ -1,11 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+const { readFileSync } = require('fs');
+const { join, resolve } = require('path');
+
 const util = require('util');
 const glob = require('glob');
 const File = require('vinyl');
 const SVGSpriter = require('svg-sprite');
 
-const cwd = path.resolve('src/assets/icons');
+const cwd = resolve('src/assets/icons');
 const spriteConfig = {
   mode: {
     inline: true,
@@ -43,24 +44,28 @@ module.exports = async () => {
     });
   };
 
-  // Get all SVG icon files in working directory
-  const getFiles = util.promisify(glob);
-  const files = await getFiles('**/*.svg', { cwd: cwd });
+  try {
+    // Get all SVG icon files in working directory
+    const getFiles = util.promisify(glob);
+    const files = await getFiles('**/*.svg', { cwd: cwd });
 
-  // Add them all to the spriter
-  files.forEach(file => {
-    spriter.add(
-      new File({
-        path: path.join(cwd, file),
-        base: cwd,
-        contents: fs.readFileSync(path.join(cwd, file)),
-      })
-    );
-  });
+    // Add them all to the spriter
+    files.forEach(file => {
+      spriter.add(
+        new File({
+          path: join(cwd, file),
+          base: cwd,
+          contents: readFileSync(join(cwd, file)),
+        })
+      );
+    });
 
-  // Compile the sprite file and return it as a string
-  const sprite = await compileSprite(spriteConfig.mode);
-  const spriteContent = sprite.contents.toString('utf8');
+    // Compile the sprite file and return it as a string
+    const sprite = await compileSprite(spriteConfig.mode);
+    const spriteContent = sprite.contents.toString('utf8');
 
-  return spriteContent;
+    return spriteContent;
+  } catch (error) {
+    console.error('[Icon Sprit]:', error);
+  }
 };

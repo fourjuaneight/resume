@@ -1,5 +1,6 @@
-const htmlmin = require('html-minifier');
-const critical = require('critical');
+const { generate } = require('critical');
+const { minify } = require('html-minifier');
+
 const buildDir = 'dist';
 
 const shouldTransformHTML = outputPath =>
@@ -10,13 +11,16 @@ const shouldTransformHTML = outputPath =>
 const isHomePage = outputPath => outputPath === `${buildDir}/index.html`;
 
 process.setMaxListeners(Infinity);
+
 module.exports = {
   htmlmin: (content, outputPath) => {
     if (shouldTransformHTML(outputPath)) {
-      return htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
+      return minify(content, {
         collapseWhitespace: true,
+        minifyCSS: true,
+        minifyJS: true,
+        removeComments: true,
+        useShortDoctype: true,
       });
     }
 
@@ -34,7 +38,7 @@ module.exports = {
           height: 1000,
           // timeout: 30000,
         };
-        const html = await critical.generate(config);
+        const html = await generate(config);
 
         return html;
       } catch (err) {
