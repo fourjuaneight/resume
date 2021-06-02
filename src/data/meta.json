@@ -1,9 +1,9 @@
 {
-    "url": "https://demo-resume.netlify.app",
+    "url": "https://resume.juanvillela.dev",
     "lang": "en",
     "locale": "en_us",
     "colors": {
-        "primary": "#005b96",
-        "secondary": "#fc6767"
+        "primary": "#705ec8",
+        "secondary": "#49ca6a"
     }
 }
