@@ -12,11 +12,8 @@ My time working independently was a pivotal moment for my career. I was exposed 
 I primarily worked with statically generate sites with Hugo and Gatsby. My focus centered around small build sizes. This was accomplished by often opting for a custom JavaScrit solution, rather than picking a library off the shelf. Techniques such as inlining critical CSS, subsetting fonts, and lazy loading assets did wonders for fast load times and a nice experience on a slower connection.
 
 These are some of the sites I helped build:
-- **Decision Point Healthcare**
-https://decisionpointhealth.com
+- **[Decision Point Healthcare](https://decisionpointhealth.com)**
 
-- **YouArePreApproved**
-https://www.youarepreapproved.com
+- **[YouArePreApproved](https://www.youarepreapproved.com)**
 
-- **Bonsai**
-https://bonsai.io
+- **[Bonsai](https://bonsai.io)**
