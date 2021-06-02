@@ -1,18 +1,24 @@
 {
-    "name": "Anna Quincey",
-    "occupation": "Front-End Developer",
-    "location": "Vienna, AT",
+    "name": "Juan Villela",
+    "occupation": "Senior Front-End Developer",
+    "location": "Washington, DC",
     "avatar": "avatar.jpg",
-    "pronouns": "she/her",
-    "email": "anna.quincey@gmail.com",
-    "telephone": "+01 23 456 789",
-    "website": "https://annaquincey.dev",
+    "pronouns": "he/him",
+    "email": "juan@villela.co",
+    "telephone": "571-305-3220",
+    "website": "https://juanvillela.dev",
     "skills": [
         "HTML",
         "CSS",
-        "Javascript / ES6",
-        "UI Design",
+        "SCSS",
+        "Javascript",
+        "TypeScript",
         "React",
+        "Angular",
+        "Node",
+        "Express",
+        "NestJS",
+        "GraphQL",
         "Git"
     ],
     "languages": [
@@ -21,24 +27,15 @@
             "level": "native"
         },
         {
-            "name": "German",
+            "name": "Spanish",
             "level": "fluent"
-        },
-        {
-            "name": "French",
-            "level": "basic"
         }
     ],
     "social": [
         {
             "name": "Github",
-            "user": "@annaquincey",
+            "user": "@fourjuaneight",
             "url": "https://github.com/annaquincey"
-        },
-        {
-            "name": "LinkedIn",
-            "user": "AnnaQncy",
-            "url": "https://www.linkedin.com/in/annaquincey"
         }
     ]
 }
