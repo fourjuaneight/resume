@@ -13,5 +13,5 @@ Relevant links:
 
 Other hobbies include:
 - Cooking
-- Playing Mario Kart with my wife
-- Collection Magic The Gathering cards
+- Screaming at Mario Kart with my wife
+- Hoarding Magic The Gathering cards
