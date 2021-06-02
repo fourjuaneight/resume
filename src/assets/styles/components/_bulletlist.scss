@@ -1,5 +1,9 @@
 .bulletlist {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     list-style: none;
+    max-height: 11rem;
     padding-left: 1.5em;
 
     li {
