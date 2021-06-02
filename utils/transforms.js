@@ -42,7 +42,7 @@ module.exports = {
 
         return html;
       } catch (err) {
-        console.error('[Transforms]:', err);
+        console.error('[Critical Transform]:', err);
       }
     }
     return content;

@@ -36,6 +36,8 @@ module.exports = async () => {
     return new Promise((resolve, reject) => {
       spriter.compile(args, (error, result) => {
         if (error) {
+          console.error('[Compile Sprite]:', error);
+
           return reject(error);
         }
 
@@ -66,6 +68,6 @@ module.exports = async () => {
 
     return spriteContent;
   } catch (error) {
-    console.error('[Icon Sprit]:', error);
+    console.error('[Icon Sprite]:', error);
   }
 };
