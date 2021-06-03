@@ -67,6 +67,15 @@
         border-color: #b5b5b5;
     }
 
+    .entry__content,
+    .p-summary {
+        max-width: 100%;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
     .entry__organization,
     .p-summary,
     .section--interests {
