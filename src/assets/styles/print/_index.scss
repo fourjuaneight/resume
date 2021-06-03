@@ -55,7 +55,8 @@
     padding: 0 !important;
   }
 
-  .sidebar {
+  .sidebar,
+  .copyrigth {
     display: none !important;
   }
 
@@ -67,13 +68,14 @@
     border-color: #b5b5b5;
   }
 
+  .vcard__contact {
+    display: flex;
+    width: 100%;
+  }
+
   .entry__content,
   .p-summary {
     max-width: 100%;
-  }
-
-  .lead {
-    font-size: 1rem;
   }
 
   .entry__organization,
@@ -101,5 +103,9 @@
   .entrylist__item,
   .entry {
     page-break-inside: avoid;
+  }
+
+  .bulletlist {
+    max-height: 6rem;
   }
 }
