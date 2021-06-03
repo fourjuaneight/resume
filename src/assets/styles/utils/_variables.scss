@@ -8,9 +8,9 @@
 // adapting to different screen sizes, for use in media queries.
 
 $breakpoints: (
-    md: 670px,
-    lg: 940px,
-    xl: 1260px
+  md: 670px,
+  lg: 940px,
+  xl: 1260px,
 );
 
 $container-max-width: 1200px;
@@ -43,8 +43,8 @@ $secondary-color: $brand-red;
 // Font, line-height, and color for body text, headings, and more.
 
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 $font-family-serif: 'Butler', Georgia, Times, serif;
 $font-family-base: $font-family-sans-serif;
 

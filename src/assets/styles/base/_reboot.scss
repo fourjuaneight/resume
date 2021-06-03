@@ -17,14 +17,14 @@
 // Credit: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 
 html {
-    box-sizing: border-box;
-    overflow-y: scroll;
+  box-sizing: border-box;
+  overflow-y: scroll;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 // Make viewport responsive
@@ -46,21 +46,21 @@ html {
 //
 // Includes future-proofed vendor prefixes as well.
 @at-root {
-    @-moz-viewport {
-        width: device-width;
-    }
-    @-ms-viewport {
-        width: device-width;
-    }
-    @-o-viewport {
-        width: device-width;
-    }
-    @-webkit-viewport {
-        width: device-width;
-    }
-    @viewport {
-        width: device-width;
-    }
+  @-moz-viewport {
+    width: device-width;
+  }
+  @-ms-viewport {
+    width: device-width;
+  }
+  @-o-viewport {
+    width: device-width;
+  }
+  @-webkit-viewport {
+    width: device-width;
+  }
+  @viewport {
+    width: device-width;
+  }
 }
 
 //
@@ -68,24 +68,24 @@ html {
 //
 
 html {
-    // Sets a specific default `font-size` for user with `rem` type scales.
-    font-size: $font-size-root;
-    // Changes the default tap highlight to be completely transparent in iOS.
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  // Sets a specific default `font-size` for user with `rem` type scales.
+  font-size: $font-size-root;
+  // Changes the default tap highlight to be completely transparent in iOS.
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
-    // Make the `body` use the `font-size-root`
-    font-family: $font-family-base;
-    font-size: $font-size-base;
-    line-height: $line-height;
+  // Make the `body` use the `font-size-root`
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height;
 
-    color: $text-color;
-    color: var(--text-color, $text-color);
-    background-color: $bg-color;
+  color: $text-color;
+  color: var(--text-color, $text-color);
+  background-color: $bg-color;
 
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 //
@@ -101,15 +101,15 @@ body {
 abbr[title],
 // Add data-* attribute to help out our tooltip plugin, per https://github.com/twbs/bootstrap/issues/5257
 abbr[data-original-title] {
-    cursor: help;
+  cursor: help;
 }
 
 ol,
 ul,
 dl {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 //
@@ -117,7 +117,7 @@ dl {
 //
 
 pre {
-    margin: 0;
+  margin: 0;
 }
 
 //
@@ -125,11 +125,11 @@ pre {
 //
 
 img {
-    // By default, `<img>`s are `inline-block`. This assumes that, and vertically
-    // centers them. This won't apply should you reset them to `block` level.
-    vertical-align: middle;
-    // Note: `<img>`s are deliberately not made responsive by default.
-    // For the rationale behind this, see the comments on the `.img-fluid` class.
+  // By default, `<img>`s are `inline-block`. This assumes that, and vertically
+  // centers them. This won't apply should you reset them to `block` level.
+  vertical-align: middle;
+  // Note: `<img>`s are deliberately not made responsive by default.
+  // For the rationale behind this, see the comments on the `.img-fluid` class.
 }
 
 // iOS "clickable elements" fix for role="button"
@@ -139,7 +139,7 @@ img {
 // see https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
 
 [role='button'] {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 // Avoid 300ms click delay on touch devices that support the `touch-action` CSS property.
@@ -161,7 +161,7 @@ label,
 select,
 summary,
 textarea {
-    touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 //
@@ -169,8 +169,8 @@ textarea {
 //
 
 th {
-    // Centered by default, but left-align-ed to match the `td`s below.
-    text-align: left;
+  // Centered by default, but left-align-ed to match the `td`s below.
+  text-align: left;
 }
 
 //
@@ -178,68 +178,68 @@ th {
 //
 
 label {
-    // Allow labels to use `margin` for spacing.
-    display: inline-block;
-    margin: 0;
+  // Allow labels to use `margin` for spacing.
+  display: inline-block;
+  margin: 0;
 }
 
 input,
 button,
 select,
 textarea {
-    // Remove all `margin`s so our classes don't have to do it themselves.
-    margin: 0;
-    // Normalize includes `font: inherit;`, so `font-family`. `font-size`, etc are
-    // properly inherited. However, `line-height` isn't addressed there. Using this
-    // ensures we don't need to unnecessarily redeclare the global font stack.
-    line-height: inherit;
-    // iOS adds rounded borders by default
-    border-radius: 0;
+  // Remove all `margin`s so our classes don't have to do it themselves.
+  margin: 0;
+  // Normalize includes `font: inherit;`, so `font-family`. `font-size`, etc are
+  // properly inherited. However, `line-height` isn't addressed there. Using this
+  // ensures we don't need to unnecessarily redeclare the global font stack.
+  line-height: inherit;
+  // iOS adds rounded borders by default
+  border-radius: 0;
 }
 
 textarea {
-    // Textareas should really only resize vertically so they don't break their (horizontal) containers.
-    resize: vertical;
+  // Textareas should really only resize vertically so they don't break their (horizontal) containers.
+  resize: vertical;
 }
 
 fieldset {
-    // Chrome and Firefox set a `min-width: min-content;` on fieldsets,
-    // so we reset that to ensure it behaves more like a standard block element.
-    // See https://github.com/twbs/bootstrap/issues/12359.
-    min-width: 0;
-    padding: 0;
-    margin: 0;
-    border: 0;
+  // Chrome and Firefox set a `min-width: min-content;` on fieldsets,
+  // so we reset that to ensure it behaves more like a standard block element.
+  // See https://github.com/twbs/bootstrap/issues/12359.
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 legend {
-    // Reset the entire legend element to match the `fieldset`
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
-    line-height: inherit;
-    border: 0;
+  // Reset the entire legend element to match the `fieldset`
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  border: 0;
 }
 
 input[type='search'] {
-    // Undo Normalize's default here to match our global overrides.
-    box-sizing: inherit;
-    // This overrides the extra rounded corners on search inputs in iOS so that our
-    // `.form-control` class can properly style them. Note that this cannot simply
-    // be added to `.form-control` as it's not specific enough. For details, see
-    // https://github.com/twbs/bootstrap/issues/11586.
-    -webkit-appearance: none;
+  // Undo Normalize's default here to match our global overrides.
+  box-sizing: inherit;
+  // This overrides the extra rounded corners on search inputs in iOS so that our
+  // `.form-control` class can properly style them. Note that this cannot simply
+  // be added to `.form-control` as it's not specific enough. For details, see
+  // https://github.com/twbs/bootstrap/issues/11586.
+  -webkit-appearance: none;
 }
 
 ::selection {
-    background: $primary-color;
-    background: var(--primary-color, $primary-color);
-    color: #fff;
+  background: $primary-color;
+  background: var(--primary-color, $primary-color);
+  color: #fff;
 }
 ::-moz-selection {
-    background: $primary-color;
-    background: var(--primary-color, $primary-color);
-    color: #fff;
+  background: $primary-color;
+  background: var(--primary-color, $primary-color);
+  color: #fff;
 }
