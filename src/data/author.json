@@ -19,7 +19,10 @@
         "Express",
         "NestJS",
         "GraphQL",
-        "Git"
+        "Git",
+        "CI/CD",
+        "E2E Testing",
+        "Docker"
     ],
     "languages": [
         {
