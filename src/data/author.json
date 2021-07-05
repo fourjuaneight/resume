@@ -11,7 +11,7 @@
         "HTML",
         "CSS",
         "SCSS",
-        "Javascript",
+        "JavaScript",
         "TypeScript",
         "React",
         "Angular",
@@ -20,8 +20,9 @@
         "NestJS",
         "GraphQL",
         "Git",
-        "CI/CD",
-        "E2E Testing",
+        "Jest",
+        "Cypress",
+        "axe",
         "Docker"
     ],
     "languages": [
