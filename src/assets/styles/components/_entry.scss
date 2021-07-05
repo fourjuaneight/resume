@@ -19,6 +19,10 @@
 
   &__organization {
     font-size: 1.125rem;
+
+    a {
+      font-weight: 500;
+    }
   }
 
   &__content {
@@ -28,8 +32,43 @@
       margin-top: 1em;
     }
 
+    > h2,
     > p {
-      margin-top: 1em;
+      margin-top: 1rem;
+    }
+
+    > h2 {
+      font-family: $font-family-base;
+      font-size: 1.075rem;
+      line-height: 1.5;
+    }
+
+    > ul {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      width: 100%;
+
+      li {
+        font-size: 0.85rem;
+        margin: 0 0.25rem;
+
+        &::after {
+          color: var(--secondary-color);
+          content: '\2219';
+          display: inline-block;
+          margin-left: 0.5rem;
+        }
+
+        &:nth-of-type(1) {
+          margin-left: 0;
+        }
+
+        &:nth-last-of-type(1)::after {
+          content: unset;
+        }
+      }
     }
   }
 }
