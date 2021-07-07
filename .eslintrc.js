@@ -40,6 +40,6 @@ module.exports = {
     'no-case-declarations': 0,
     'no-nested-ternary': 0,
     'no-useless-constructor': 0,
-    'prettier/prettier': ['error', ...prettier],
+    'prettier/prettier': ['error', prettier],
   },
 };
