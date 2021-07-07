@@ -31,7 +31,7 @@ module.exports = class {
         entryPoints: [entryPath],
         bundle: true,
         outfile: outputPath,
-        treeShaking: true
+        treeShaking: true,
       });
       const data = await readFile(outputPath, { encoding: 'utf8' });
       // transpile with babel; uses local config file and browserslist in package.json
