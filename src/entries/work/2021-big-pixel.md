@@ -8,7 +8,7 @@ start: 2020-05-01
 
 Taking on a senior role gave me the privilege of serving as a resource for many of my peers. During this time, I've focused on ensuring we have solid documentation both in our code and throughout the various channels of communication we utilize.
 
-Since most of our clientele are corporations in need of internal apps, my job shifted towards web apps, as opposed to web site. But my goals remained the same; reliability and accessibility.
+Since most of our clientele are corporations in need of internal apps, my job shifted towards web apps, as opposed to web site. But my goals remained the same, reliability and accessibility being at the forefront.
 
 Here are some of our recent projects:
 
