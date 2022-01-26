@@ -68,6 +68,37 @@
     border-color: #b5b5b5;
   }
 
+  .vcard__content {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    grid-template-rows: repeat(2, min-content);
+    width: 100%;
+
+    .vcard__title {
+      grid-column: 1/2;
+      grid-row: 1/3;
+      margin-right: auto;
+    }
+
+    .vcard__subtitle,
+    .vcard__contact {
+      grid-column: 2/3;
+
+      > * {
+        white-space: nowrap;
+      }
+    }
+
+    .vcard__subtitle {
+      grid-row: 1/2;
+      margin-bottom: 0;
+    }
+
+    .vcard__contact {
+      grid-row: 2/3;
+    }
+  }
+
   .vcard__contact {
     display: flex;
     width: 100%;
@@ -78,6 +109,12 @@
     max-width: 100%;
   }
 
+  .entry__content {
+    h2 {
+      font-size: 1.35rem;
+    }
+  }
+
   .entry__organization,
   .p-summary,
   .section--interests {
@@ -86,11 +123,17 @@
     }
   }
 
+  .entry__organization {
+    font-size: 1.5rem;
+  }
+
+  .p-summary {
+    font-size: 1.25rem;
+  }
+
+  .section--interests,
   .vcard__avatar {
-    position: static !important;
-    transform: none !important;
-    margin: 0 2rem 0 0 !important;
-    border: 0;
+    display: none;
   }
 
   .entrylist::before,
