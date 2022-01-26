@@ -1,45 +1,19 @@
 {
-    "name": "Juan Villela",
-    "occupation": "Senior Front-End Developer",
-    "location": "Washington, DC",
-    "avatar": "avatar.jpg",
-    "pronouns": "he/him",
-    "email": "juan@villela.co",
-    "telephone": "571-305-3220",
-    "website": "https://juanvillela.dev",
-    "skills": [
-        "HTML",
-        "CSS",
-        "SCSS",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Angular",
-        "Node",
-        "Express",
-        "NestJS",
-        "GraphQL",
-        "Git",
-        "Jest",
-        "Cypress",
-        "axe",
-        "Docker"
-    ],
-    "languages": [
-        {
-            "name": "English",
-            "level": "native"
-        },
-        {
-            "name": "Spanish",
-            "level": "fluent"
-        }
-    ],
-    "social": [
-        {
-            "name": "Github",
-            "user": "@fourjuaneight",
-            "url": "https://github.com/fourjuaneight"
-        }
-    ]
+  "name": "Juan Villela",
+  "occupation": "Senior Front-End Developer",
+  "location": "Washington, DC",
+  "avatar": "avatar.jpg",
+  "pronouns": "he/him",
+  "email": "juan@villela.co",
+  "telephone": "571-305-3220",
+  "website": "https://juanvillela.dev",
+  "skills": ["React", "Angular", "Node", "Express", "NestJS", "GraphQL", "Jest", "Cypress", "axe", "Docker", "Git"],
+  "languages": ["HTML", "CSS", "SCSS", "JavaScript", "TypeScript", "SQL", "English (native)", "English (fluent)"],
+  "social": [
+    {
+      "name": "Github",
+      "user": "@fourjuaneight",
+      "url": "https://github.com/fourjuaneight"
+    }
+  ]
 }

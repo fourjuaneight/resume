@@ -27,23 +27,23 @@ layout: base
 
     {% if author.skills or author.languages %}
         <div class="grid grid--2col">
+            {% if author.languages %}
+                <section class="section section--half" id="section-languages">
+                    <h2 class="section__title">{{ strings.titles.languages }}</h2>
+                    <ul class="bulletlist">
+                    {% for language in author.languages %}
+                        <li class="p-skill">{{ language }}</li>
+                    {% endfor %}
+                    </ul>
+                </section>
+            {% endif %}
+
             {% if author.skills %}
                 <section class="section section--half" id="section-skills">
                     <h2 class="section__title">{{ strings.titles.skills }}</h2>
                     <ul class="bulletlist">
                     {% for skill in author.skills %}
                         <li class="p-skill">{{ skill }}</li>
-                    {% endfor %}
-                    </ul>
-                </section>
-            {% endif %}
-
-            {% if author.languages %}
-                <section class="section section--half" id="section-languages">
-                    <h2 class="section__title">{{ strings.titles.languages }}</h2>
-                    <ul class="bulletlist">
-                    {% for language in author.languages %}
-                        <li class="p-skill">{{ language.name }} ({{ language.level }})</li>
                     {% endfor %}
                     </ul>
                 </section>
