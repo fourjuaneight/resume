@@ -1,9 +1,9 @@
 {
-    "url": "https://resume.juanvillela.dev",
-    "lang": "en",
-    "locale": "en_us",
-    "colors": {
-        "primary": "#705ec8",
-        "secondary": "#49ca6a"
-    }
+  "url": "https://resume.juanvillela.dev",
+  "lang": "en",
+  "locale": "en_us",
+  "colors": {
+    "primary": "#705ec8",
+    "secondary": "#49ca6a"
+  }
 }

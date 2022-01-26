@@ -13,18 +13,18 @@ These are some of the sites I helped build:
 
 ## [Decision Point Healthcare](https://decisionpointhealth.com)
 
-  - React
-  - Gatsby
-  - CSS Modules
-  - Contentful
+- React
+- Gatsby
+- CSS Modules
+- Contentful
 
 DPH was looking to bring their Figma designs to life with the help of Gatsby. The idea was to make it easier for management and marketing to spin up new pages, write posts, and capture leads. Small and reusable components, robust integration with Contentful, and a well-crafted design system have allowed the team to quickly publish content for their visitors and grow their business.
 
 ## [YouArePreApproved](https://www.youarepreapproved.com)
 
-  - React
-  - Gatsby
-  - Redux
+- React
+- Gatsby
+- Redux
 
 YAPA had a site built over a decade ago that was in dire need of a revamp. But they wanted something that was not just a landing page for potential buyers. We landed on Gatsby for its progressive enhancement and ability to scale. The site features several pages with dynamic tables showing lending rates updated at frequent intervals to ensure the latest information.
 
