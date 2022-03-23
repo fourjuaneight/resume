@@ -26,6 +26,6 @@ DPH was looking to bring their Figma designs to life with the help of Gatsby. Th
 - Gatsby
 - Redux
 
-YAPA had a site built over a decade ago that was in dire need of a revamp. But they wanted something that was not just a landing page for potential buyers. We landed on Gatsby for its progressive enhancement and ability to scale. The site features several pages with dynamic tables showing lending rates updated at frequent intervals to ensure the latest information.
+YAPA had a site built over a decade ago that was in dire need of a revamp. But they wanted something that was not just a landing page for potential home buyers across the US. We landed on Gatsby for its progressive enhancement and ability to scale. The site features several pages with dynamic tables showing lending rates updated at frequent intervals to ensure the latest information.
 
 The beautiful design you see there was made but a wonderful design firm based in Poland. This was a fantastic collaborative opportunity that exposed me to a new culture and true async communications.
