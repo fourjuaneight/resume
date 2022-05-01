@@ -1,14 +1,13 @@
 {
   "name": "Juan Villela",
-  "occupation": "Senior Front-End Developer",
+  "occupation": "Senior Full-Stack Developer",
   "location": "Washington, DC",
   "avatar": "avatar.jpg",
   "pronouns": "he/him",
   "email": "juan@villela.co",
-  "telephone": "571-305-3220",
   "website": "https://juanvillela.dev",
-  "skills": ["React", "Angular", "Node", "Express", "NestJS", "GraphQL", "Jest", "Cypress", "axe", "Docker", "Git"],
-  "languages": ["HTML", "CSS", "SCSS", "JavaScript", "TypeScript", "SQL", "English (native)", "English (fluent)"],
+  "skills": ["React", "Angular", "Node", "NestJS", "Express", "GraphQL", "Jest", "Cypress", "axe", "Docker", "Git"],
+  "languages": ["HTML", "CSS", "SCSS", "JavaScript", "TypeScript", "SQL"],
   "social": [
     {
       "name": "Github",
