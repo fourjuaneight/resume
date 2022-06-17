@@ -56,7 +56,8 @@
   }
 
   .sidebar,
-  .copyrigth {
+  .copyrigth,
+  .updated {
     display: none !important;
   }
 
@@ -64,8 +65,14 @@
     background: transparent !important;
   }
 
+  .section {
+    padding: 1.5rem 0 1rem;
+  }
+
   .section__title {
     border-color: #b5b5b5;
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
   .vcard__content {
@@ -83,6 +90,7 @@
     .vcard__subtitle,
     .vcard__contact {
       grid-column: 2/3;
+      justify-self: end;
 
       > * {
         white-space: nowrap;
@@ -99,9 +107,26 @@
     }
   }
 
-  .vcard__contact {
+  .vcard__contact,
+  .vcard__social {
     display: flex;
     width: 100%;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  .vcard__link {
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  #section-introduction {
+    .section__title {
+      display: none;
+    }
   }
 
   .entry__content,
