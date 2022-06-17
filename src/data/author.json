@@ -6,8 +6,8 @@
   "pronouns": "he/him",
   "email": "juan@villela.co",
   "website": "https://juanvillela.dev",
-  "skills": ["React", "Angular", "Node", "NestJS", "Express", "GraphQL", "Jest", "Cypress", "axe", "Docker", "Git"],
-  "languages": ["HTML", "CSS", "SCSS", "JavaScript", "TypeScript", "SQL"],
+  "skills": ["React", "Angular", "Node", "NestJS", "Express", "GraphQL", "Jest", "Cypress", "aXe", "Docker", "Git"],
+  "languages": ["HTML", "CSS/SCSS", "JavaScript", "TypeScript", "SQL", "Shell"],
   "social": [
     {
       "name": "Github",
