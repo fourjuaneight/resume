@@ -1,5 +1,5 @@
 ---
-title: Junior Front-End Developer
+title: Front-End Developer
 organization: Freelancer
 organizationUrl: https://www.upwork.com/freelancers/~0193b7b6d6aeb0b86d
 location: Remote
