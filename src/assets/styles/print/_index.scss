@@ -113,6 +113,14 @@
     width: 100%;
   }
 
+  .vcard__social {
+    align-items: flex-end;
+
+    > * {
+      margin-top: 0.5rem;
+    }
+  }
+
   .lead {
     font-size: 1rem;
   }
