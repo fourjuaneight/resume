@@ -1,5 +1,5 @@
 ---
-title: Senior Full-Stack Developer
+title: Senior Front-End Engineer
 organization: Big Pixel
 organizationUrl: https://thebigpixel.net
 location: Remote
@@ -16,10 +16,10 @@ Here are some of our recent projects:
 
 - React
 - Redux
+- TypeScript
 - Material Design
 - Highcharts
 - Locize
-- TypeScript
 
 Beacon was my first project when I started at Big Pixel. It's a legacy React codebase that has been on a long and slow refactoring journey. There are two apps: desktop and mobile. The former servers as a hub for all the various data points inside the company. Much of which is displayed in tables with vast amounts of data, while still being easily searchable. The mobile app is an entirely different beast. This serves as a tool for on-site engineers doing maintenance and installation requests on medical gas equipment. With the help of Redux, they can log large amounts of technical data offline. An outbox was designed to queue up requests to the API until a stable connection is reached.
 
@@ -30,8 +30,8 @@ All text is managed through Locize for localization and translation across 7 lan
 - React
 - Gatsby
 - Redux
-- Tailwind
 - TypeScript
+- Tailwind
 
 The client approached us with an idea for a kid's book builder for schools in North Carolina. This would require a lot of user experience considerations and a well-thought-out infrastructure. The result was a wonderful orchestration of various web and 3rd party APIs. Through many iterations, we were able to ship a beautiful product that is accessible to a young audience and manageable for the client without the need of developer intervention. All product info and assets are handled through Shopify. And book configurations are stored on a serverless Hasura database and API.
 
