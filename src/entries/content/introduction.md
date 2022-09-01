@@ -3,4 +3,4 @@ tags: introduction
 title: About Me
 ---
 
-I like websites. Most of my time is spent making them. I’ve been doing it professionally for a little over 5 years now. I started off building statically generated sites with tools like Hugo and Jekyll, helping companies build websites to showcase their products and attract new leads. Now, my work has shifted to building enterprise web applications with the help of Angular, React, and Node. But my focus remains the same; I strive to build accessible and performant websites that create an enjoyable experience for all.
+I aim to create accessible and engaging experiences for everyone through the web. Over the last 5+ years, I've helped a wide range of companies bring their vision to life through modern and innovative web technologies and matured stacks we rely on every day. With a focus on writing maintainable code to collaborate efficiently with others, my hope is to share my love for the web with a passionate team.
