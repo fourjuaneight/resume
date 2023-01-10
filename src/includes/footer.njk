@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container utl-space-between">
         <p class="copyrigth">&copy; {{ author.name }}</p>
-        <p class="updated">{{ strings.labels.lastUpdated }}: {{ build.timestamp | dateToFormat('dd.MM.yyyy') }}</p>
+        <p class="updated">{{ strings.labels.lastUpdated }}: {{ build.timestamp | dateToFormat('yyyy-MM-dd') }}</p>
         {% if build.demo %}
             <a href="https://github.com/fourjuaneight/resume" class="repo-link utl-screen-only">
                 <span>{% icon "github" %} view source</span>
