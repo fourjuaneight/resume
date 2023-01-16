@@ -1,5 +1,5 @@
 ---
-title: Senior Front-End Engineer
+title: Senior Web Engineer
 organization: Big Pixel
 organizationUrl: https://thebigpixel.net
 location: Remote
@@ -17,23 +17,39 @@ Here are some of our recent projects:
 - React
 - Redux
 - TypeScript
-- Material Design
 - Highcharts
 - Locize
+- MSAL (Microsoft Authentication Library)
 
-Beacon was my first project when I started at Big Pixel. It's a legacy React codebase that has been on a long and slow refactoring journey. There are two apps: desktop and mobile. The former servers as a hub for all the various data points inside the company. Much of which is displayed in tables with vast amounts of data, while still being easily searchable. The mobile app is an entirely different beast. This serves as a tool for on-site engineers doing maintenance and installation requests on medical gas equipment. With the help of Redux, they can log large amounts of technical data offline. An outbox was designed to queue up requests to the API until a stable connection is reached.
+---
 
-All text is managed through Locize for localization and translation across 7 languages. The app is used across 3 continents.
+- Refactored a legacy React codebase that was optimized for Hooks and offline functionality.
+- Developed two apps:
+  - a desktop app serving as a hub for various data points inside the company, with searchable tables displaying large amounts of data.
+  - a mobile app for on-site engineers to log technical data offline and queue up requests to the API.
+- Implemented Redux for state management and API interaction via the Microsoft Authentication Library.
+- Integrated Highcharts to visualize data coming from the various machinary connected to Beacon's network.
+- Implemented localization and translation that supported 7 languages used across 3 continents.
 
 ## [Toggle Book Factory](https://builder.togglebookfactory.com)
 
 - React
 - Gatsby
 - Redux
+- PostgreSQL
+- GraphQL
 - TypeScript
 - Tailwind
+- Shopify
 
-The client approached us with an idea for a kid's book builder for schools in North Carolina. This would require a lot of user experience considerations and a well-thought-out infrastructure. The result was a wonderful orchestration of various web and 3rd party APIs. Through many iterations, we were able to ship a beautiful product that is accessible to a young audience and manageable for the client without the need of developer intervention. All product info and assets are handled through Shopify. And book configurations are stored on a serverless Hasura database and API.
+---
+
+- Developed a kid's book builder for schools in North Carolina.
+- Emphasized user experience by crafting a well-planned infrastructure.
+- Orchestrated various web and 3rd party APIs.
+- Iterated and shipped a final product that is easy to use for a young audience and manageable for the client without developer intervention.
+- Leveraged the Shopify API to retrieve product info and assets.
+- Stored book configurations on a serverless Postgres database and API.
 
 ## [Oransi](https://www.mapmyair.com)
 
@@ -45,6 +61,9 @@ The client approached us with an idea for a kid's book builder for schools in No
 - Ionic
 - TypeScript
 
-Oransi provides consumer smart air filtration products. This app was built as a hub to connect users' accounts and their air quality settings. It pulls data from various services and serves them in a wonderful UI. The codebase is also used on iOS and Android apps with the help of Ionic.
+---
 
-This was also my first foray into back-end development. Which was an amazing learning opportunity to polish my data management and architectural planning skills.
+- Developed a hub app for Oransi to connect users' accounts and IoT air-quality product settings.
+- Retrieved data from various services and displayed it in a user-friendly interface.
+- Used the same codebase for iOS and Android apps with the help of Ionic.
+- This was the first project that involved back-end development, which provided an opportunity to improve data management and architectural planning skills.

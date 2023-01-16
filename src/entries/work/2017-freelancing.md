@@ -18,14 +18,25 @@ These are some of the sites I helped build:
 - CSS Modules
 - Contentful
 
-DPH was looking to bring their Figma designs to life with the help of Gatsby. The idea was to make it easier for management and marketing to spin up new pages, write posts, and capture leads. Small and reusable components, robust integration with Contentful, and a well-crafted design system have allowed the team to quickly publish content for their visitors and grow their business.
+---
+
+- Converted Figma designs into a live website using Gatsby.
+- Created small and reusable components for easy management and marketing.
+- Integrated website with Contentful for robust content management.
+- Developed a design system for consistent and well-crafted visuals.
+- Enabled the ability to quickly publish new content and capture leads to grow the business.
 
 ## [YouArePreApproved](https://www.youarepreapproved.com)
 
 - React
 - Gatsby
 - Redux
+- CSS Modules
 
-YAPA had a site built over a decade ago that was in dire need of a revamp. But they wanted something that was not just a landing page for potential home buyers across the US. We landed on Gatsby for its progressive enhancement and ability to scale. The site features several pages with dynamic tables showing lending rates updated at frequent intervals to ensure the latest information.
+---
 
-The beautiful design you see there was made but a wonderful design firm based in Poland. This was a fantastic collaborative opportunity that exposed me to a new culture and true async communications.
+- Revamped an outdated website for YouArePreApproved using Gatsby for progressive enhancement and scalability.
+- Created several pages featuring dynamic tables displaying updated lending rates.
+- Collaborated with a design firm based in Poland to create a beautiful and accessible design.
+- Utilized React, Gatsby, Redux, and CSS Modules in the development process.
+- Experience in working with different cultures and asynchronous communication.
