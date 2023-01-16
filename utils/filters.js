@@ -30,6 +30,9 @@ module.exports = {
       '<a href="$1" target="_blank" rel="noopener noreferrer">$2</a>'
     ),
 
+  addListClass: str =>
+    str.replace(/<\/h2>\n?\s+<ul>/g, '</h2><ul class="tech-list">'),
+
   base64file: file => {
     const filepath = join(__dirname, `../src/${file}`);
     const mimeType = getType(file);
