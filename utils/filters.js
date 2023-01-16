@@ -24,6 +24,12 @@ module.exports = {
 
   stripProtocol: str => str.replace(/(^\w+:|^)\/\//, ''),
 
+  addAnchorAttrs: str =>
+    str.replace(
+      /<a href="(.*)">(.*)<\/a>/g,
+      '<a href="$1" target="_blank" rel="noopener noreferrer">$2</a>'
+    ),
+
   base64file: file => {
     const filepath = join(__dirname, `../src/${file}`);
     const mimeType = getType(file);

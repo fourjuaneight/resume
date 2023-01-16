@@ -34,7 +34,7 @@
                 </a>
             {% endif %}
             {% if author.website %}
-                <a class="vcard__link u-url" aria-label="Website" href="{{ author.website }}">
+                <a class="vcard__link u-url" aria-label="Website" href="{{ author.website }}" target="_blank" rel="noopener noreferrer">
                     {% icon "laptop" %}
                     <span class="vcard__link-text">{{ author.website | stripProtocol }}</span>
                 </a>
@@ -43,7 +43,7 @@
             {% if author.social %}
                 <div class="vcard__social">
                     {% for social in author.social %}
-                        <a class="vcard__link" href="{{ social.url }}" aria-label="{{ social.name }}" rel="me">
+                        <a class="vcard__link" href="{{ social.url }}" aria-label="{{ social.name }}" target="_blank" rel="noopener noreferrer">
                             {%- set isSocialIcon = true -%}
                             {%- icon social.name, isSocialIcon -%}
                             <span class="vcard__link-text p-nickname">{{- social.user -}}</span>

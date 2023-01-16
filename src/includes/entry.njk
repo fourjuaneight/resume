@@ -33,7 +33,7 @@
 
     {% if entry.templateContent %}
         <div class="entry__content p-summary">
-            {{ entry.templateContent | safe }}
+            {{ entry.templateContent | safe | addAnchorAttrs | safe }}
         </div>
     {% endif %}
 </article>
