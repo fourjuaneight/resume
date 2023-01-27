@@ -1,5 +1,5 @@
 ---
-title: Senior Web Engineer
+title: Senior Full Stack Developer
 organization: Big Pixel
 organizationUrl: https://thebigpixel.net
 location: Remote

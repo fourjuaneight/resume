@@ -1,13 +1,13 @@
 {
   "name": "Juan Villela",
-  "occupation": "Senior Web Engineer",
+  "occupation": "Senior Full Stack Developer",
   "location": "Washington, DC",
   "avatar": "avatar.jpg",
   "pronouns": "he/him",
   "email": "juan@villela.co",
   "website": "https://cleverlaziness.xyz",
-  "skills": ["React", "Angular", "NodeJS", "Ionic", "Jest", "Cypress", "Docker", "Git"],
-  "languages": ["HTML", "CSS/SCSS", "JavaScript", "TypeScript", "SQL", "GraphQL", "Go", "Shell"],
+  "skills": ["React", "Redux", "Angular", "RxJS", "NodeJS", "ExpressJS", "NestJS", "Jest", "Cypress", "Docker"],
+  "languages": ["HTML", "CSS/SCSS", "JavaScript/TypeScript", "SQL", "GraphQL", "Go", "Shell"],
   "social": [
     {
       "name": "Github",
