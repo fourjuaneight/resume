@@ -5,6 +5,7 @@
   "avatar": "avatar.jpg",
   "pronouns": "he/him",
   "email": "juan@villela.co",
+  "username": "fourjuaneight",
   "website": "https://cleverlaziness.xyz",
   "skills": ["React", "Redux", "RxJS", "NodeJS", "ExpressJS", "Jest", "Cypress", "Docker"],
   "languages": ["HTML", "CSS/SCSS", "JavaScript", "TypeScript", "SQL", "GraphQL", "Go", "Shell"],

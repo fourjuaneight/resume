@@ -375,3 +375,12 @@ td,
 th {
   padding: 0;
 }
+
+a.hidden-link {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
