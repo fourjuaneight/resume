@@ -7,7 +7,10 @@ start: 2017-09-12
 end: 2020-05-01
 ---
 
-My time working independently was a pivotal moment for my career. I primarily worked with statically generate sites built using Hugo and Gatsby. My focus centered around small build sizes and accessible design. This was accomplished by often opting for a custom JavaScript solution, rather than picking a library off the shelf. And techniques such as inlining critical CSS, subsetting fonts, and lazy loading assets did wonders for fast load times and a nice experience on slower connections.
+- Excelled as an independent Senior Full Stack Developer, specializing in the creation of statically generated websites employing Hugo, Jekyll, and Gatsby.
+- Developed custom JavaScript solutions to optimize site build sizes and enhance accessibility.
+- Implemented advanced techniques such as critical CSS inlining, font subsetting, and asset lazy loading to optimize site performance and deliver exceptional user experiences.
+- Maintained a strong focus on small build sizes and accessible design, consistently exceeding expectations and delivering outstanding results.
 
 These are some of the sites I helped build:
 

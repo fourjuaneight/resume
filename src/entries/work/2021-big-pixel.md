@@ -6,9 +6,10 @@ location: Remote
 start: 2020-05-01
 ---
 
-Taking on a senior role gave me the privilege of serving as a resource for many of my peers. During this time, I've focused on ensuring we have solid documentation both in our code and throughout the various channels of communication we utilize.
-
-Since most of our clientele are corporations in need of internal apps, my job shifted towards web apps, as opposed to a website. But my goals remained the same, reliability and accessibility being at the forefront.
+- Served as a senior resource, providing guidance and mentorship to peers.
+- Implemented and maintained comprehensive documentation processes for code and communication channels.
+- Advised clients on industry best practices.
+- Prioritized reliability and accessibility in all projects, ensuring flawless user experience.
 
 Here are some of our recent projects:
 

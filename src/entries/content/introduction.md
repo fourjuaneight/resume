@@ -3,4 +3,4 @@ tags: introduction
 title: About Me
 ---
 
-As a highly motivated and experienced full-stack web developer, I am excited to bring my skills and passion to a dynamic and innovative team. With a combination of technical expertise and passion for web development, I aim to deliver high-quality web applications at scale.
+I'm an accomplished and driven full-stack web developer, eager to leverage my extensive experience and passion for innovation to contribute to a dynamic, forward-thinking team. Possessing advanced technical proficiency and an unwavering commitment to excellence, I strive to deliver top-notch web applications that can seamlessly scale to meet diverse business requirements.
