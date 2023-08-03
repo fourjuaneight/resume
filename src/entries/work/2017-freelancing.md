@@ -7,10 +7,10 @@ start: 2017-09-12
 end: 2020-05-01
 ---
 
-- Excelled as an independent Senior Full Stack Developer, specializing in the creation of statically generated websites employing Hugo, Jekyll, and Gatsby.
-- Developed custom JavaScript solutions to optimize site build sizes and enhance accessibility.
-- Implemented advanced techniques such as critical CSS inlining, font subsetting, and asset lazy loading to optimize site performance and deliver exceptional user experiences.
-- Maintained a strong focus on small build sizes and accessible design, consistently exceeding expectations and delivering outstanding results.
+- Thrived as a self-employed Senior Frontend Developer, focusing on creating optimized, user-friendly websites using technologies like Hugo, Jekyll, and Gatsby.
+- Crafted custom JavaScript solutions, focusing on optimizing build sizes and enhancing the user experience through accessible design.
+- Leveraged advanced techniques like critical CSS inlining, font subsetting, and asset lazy loading to boost site performance and improve user experience.
+- Consistently prioritized efficient build sizes and accessible design, delivering high-quality results that regularly exceeded expectations.
 
 These are some of the sites I helped build:
 
@@ -23,11 +23,11 @@ These are some of the sites I helped build:
 
 ---
 
-- Converted Figma designs into a live website using Gatsby.
-- Created small and reusable components for easy management and marketing.
-- Integrated website with Contentful for robust content management.
-- Developed a design system for consistent and well-crafted visuals.
-- Enabled the ability to quickly publish new content and capture leads to grow the business.
+- Transformed Figma designs into a dynamic, user-friendly website using Gatsby.
+- Developed small, reusable React components for efficient management and marketing.
+- Seamlessly integrated the website with Contentful for powerful content management.
+- Designed and implemented a comprehensive design system for a consistent, engaging visual experience.
+- Enabled rapid publishing of new content and lead capture, driving business growth.
 
 ## [YouArePreApproved](https://www.youarepreapproved.com)
 
@@ -38,8 +38,8 @@ These are some of the sites I helped build:
 
 ---
 
-- Revamped an outdated website for YouArePreApproved using Gatsby for progressive enhancement and scalability.
-- Created several pages featuring dynamic tables displaying updated lending rates.
-- Collaborated with a design firm based in Poland to create a beautiful and accessible design.
-- Utilized React, Gatsby, Redux, and CSS Modules in the development process.
-- Experience in working with different cultures and asynchronous communication.
+- Modernized an outdated website for YouArePreApproved, leveraging Gatsby for progressive enhancement and scalability.
+- Developed dynamic pages featuring up-to-date lending rates.
+- Collaborated with an international design firm to create an aesthetically pleasing, accessible design.
+- Effectively used React, Gatsby, Redux, and CSS Modules in the development process.
+- Proven experience with asynchronous communication and working with diverse cultures.
