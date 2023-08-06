@@ -66,6 +66,7 @@ module.exports = config => {
   });
 
   // Pass-through files
+  config.addPassthroughCopy('src/~partytown');
   config.addPassthroughCopy('src/robots.txt');
   config.addPassthroughCopy('src/assets/images');
   config.addPassthroughCopy('src/assets/fonts');

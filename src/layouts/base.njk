@@ -4,7 +4,15 @@
     {% include "meta.njk" %}
     <link rel="preload" href="{{ '/assets/fonts/butler-medium.woff2' | url }}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
-    <script defer data-domain="resume.juanvillela.dev" src="https://plausible.io/js/plausible.js"></script>
+    <!-- Partytown -->
+    <script>
+        partytown = {
+            forward: ["dataLayer.push"]
+        }
+    </script>
+    <script type="text/javascript" src="/~partytown/partytown.js"></script>
+    <!-- Plausible -->
+    <script type="text/partytown" async data-domain="resume.juanvillela.dev" src="https://plausible.io/js/plausible.js"></script>
 </head>
 <body {% if meta.colors %}style="{{ meta.colors | themeColors }}"{% endif %}>
     <div data-icon-sprite hidden>{% iconsprite %}</div>

@@ -2,3 +2,4 @@ node_modules
 dist
 .env
 src/assets/scripts/main.bundle.js
+src/~partytown

@@ -29,6 +29,9 @@ dependencies:
   '@babel/preset-env':
     specifier: ^7.14.4
     version: 7.18.9(@babel/core@7.18.9)
+  '@builder.io/partytown':
+    specifier: ^0.8.0
+    version: 0.8.0
   critical:
     specifier: ^3.1.0
     version: 3.1.0
@@ -1335,6 +1338,11 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.18.6
       to-fast-properties: 2.0.0
+    dev: false
+
+  /@builder.io/partytown@0.8.0:
+    resolution: {integrity: sha512-M6H7nSMwW2dHd1/MQ+9J1Jqdw22uhl1nKv90kIiL9G7gjFVqqouQp4qSS1oZclmtW1XjAa4Q5UnbHB4iytmxZA==}
+    hasBin: true
     dev: false
 
   /@colors/colors@1.5.0:
