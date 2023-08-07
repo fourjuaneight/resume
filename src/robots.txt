@@ -1,4 +1,9 @@
+User-agent: GPTBot
+Disallow: /
+
 User-agent: *
 Allow: /
+
 Sitemap: https://resume.juanvillela.dev/sitemap.xml
+
 Host: https://resume.juanvillela.dev
