@@ -1,10 +1,9 @@
 {
   "name": "Juan Villela",
-  "occupation": "Senior Full Stack Web Developer",
-  "location": "Raleigh, NC",
+  "occupation": "Senior Software Engineer",
+  "location": "North Carolina",
   "avatar": "avatar.jpg",
   "pronouns": "he/him",
-  "email": "juan@villela.co",
   "username": "fourjuaneight",
   "website": "https://juanvillela.dev",
   "skills": ["React", "Redux", "NodeJS", "ExpressJS", "Jest/Vitest", "Cypress", "Docker"],
