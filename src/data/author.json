@@ -6,8 +6,8 @@
   "pronouns": "he/him",
   "username": "fourjuaneight",
   "website": "https://juanvillela.dev",
-  "skills": ["React", "Redux", "NodeJS", "ExpressJS", "Jest/Vitest", "Cypress", "Docker"],
-  "languages": ["HTML", "CSS/SCSS", "JavaScript/TypeScript", "SQL", "GraphQL"],
+  "skills": ["React", "Redux", "Vue",  "NodeJS", "ExpressJS", "Jest/Vitest", "Cypress", "Docker"],
+  "languages": ["HTML", "CSS/SCSS", "JavaScript/TypeScript", "SQL", "GraphQL", "Go"],
   "social": [
     {
       "name": "Github",
