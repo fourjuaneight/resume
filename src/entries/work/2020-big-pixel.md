@@ -4,7 +4,7 @@ organization: Big Pixel
 organizationUrl: https://thebigpixel.net
 location: Remote
 start: 2020-05-01
-end: 2024-03-18
+end: 2024-03-15
 ---
 
 - Provided senior-level guidance and mentorship to peers, leading small project teams to successfully build and launch features.
