@@ -4,6 +4,7 @@ organization: Big Pixel
 organizationUrl: https://thebigpixel.net
 location: Remote
 start: 2020-05-01
+end: 2024-03-18
 ---
 
 - Provided senior-level guidance and mentorship to peers, leading small project teams to successfully build and launch features.
@@ -30,39 +31,17 @@ Here are some of our recent projects:
 - Integrated Highcharts for effective data visualization from various connected machinery.
 - Implemented localization and translation supporting 7 languages across 3 continents, demonstrating my love for great UI.
 
-## [Toggle Book Factory](https://builder.togglebookfactory.com)
+## [Compliance Dashboard](https://www.complianceadministrators.com/login)
 
-- React
-- Gatsby
-- Redux
+- NextJS
+- React Query
 - PostgreSQL
-- GraphQL
 - TypeScript
 - Tailwind
-- Shopify
 
 ---
 
-- Developed a user-friendly kid's book builder for schools in North Carolina.
-- Prioritized user experience through a well-planned infrastructure.
-- Managed various web and 3rd party APIs.
-- Shipped a final product that's easy to use for a young audience and manageable for the client without developer intervention.
-- Leveraged the Shopify API to retrieve product info and assets.
-- Stored book configurations on a serverless Postgres database and API, highlighting my significant experience with REST APIs.
-
-## [Oransi](https://www.mapmyair.com)
-
-- Angular (SSR)
-- Nest
-- Apollo
-- Graphql
-- Postgres
-- Ionic
-- TypeScript
-
----
-
-- Developed a hub app for Oransi to connect users' accounts and IoT air-quality product settings.
-- Presented data from various services in a user-friendly interface.
-- Utilized the same codebase for iOS and Android apps with the help of Ionic.
-- Demonstrated my extensive experience with GraphQL endpoints.
+- Created a user-friendly and informative platform from the ground up to effectively communicate regulatory compliance solutions and services.
+- Optimized site performance to deliver a seamless user experience for visitors seeking compliance information.
+- Enhanced user interfaces to increase engagement and simplify navigation.
+- Clearly highlighted offerings, making it easier for potential clients to understand and access services.
