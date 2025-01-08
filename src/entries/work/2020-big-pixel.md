@@ -25,11 +25,13 @@ Here are some of our recent projects:
 
 ---
 
-- Successfully refactored a legacy React codebase, optimizing for Hooks and offline functionality.
-- Developed two apps, both a desktop and mobile app, focusing on delivering complex data points and technical data logging in a user-friendly way.
-- Implemented Redux for efficient state management and secure API interaction via Microsoft Authentication Library.
-- Integrated Highcharts for effective data visualization from various connected machinery.
-- Implemented localization and translation supporting 7 languages across 3 continents, demonstrating my love for great UI.
+- Successfully refactored a legacy React codebase to incorporate modern Hooks, enhancing performance and reliability.
+- Engineered a queueing functionality for outgoing requests, enabling offline API interactions.
+- Developed desktop and mobile applications focusing on presenting complex data points and technical data logging with intuitive UI/UX using React Native and Electron.
+- Implemented Redux for efficient state management, optimizing data flow and integrating secure API interactions using Microsoft Authentication Library for robust user authentication.
+- Integrated Highcharts for dynamic data visualization, providing real-time insights from connected IoT machinery and ensuring seamless integration with existing data infrastructure.
+- Implemented localization and translation features supporting 7 languages using i18next, expanding reach across 3 continents and showcasing expertise in creating engaging, globally accessible UI.
+
 
 ## [Compliance Dashboard](https://www.complianceadministrators.com/login)
 
@@ -41,7 +43,7 @@ Here are some of our recent projects:
 
 ---
 
-- Created a user-friendly and informative platform from the ground up to effectively communicate regulatory compliance solutions and services.
-- Optimized site performance to deliver a seamless user experience for visitors seeking compliance information.
-- Enhanced user interfaces to increase engagement and simplify navigation.
-- Clearly highlighted offerings, making it easier for potential clients to understand and access services.
+- Architected a comprehensive platform using NextJS and Tailwind CSS to effectively communicate regulatory compliance solutions and services with a focus on user-centric design.
+- Optimized site performance through Server-Side Rendering and efficient asset management, providing a seamless and fast-loading experience for visitors on slow or intermittent connections.
+- Enhanced user interfaces with intuitive design patterns and responsive layouts, utilizing custom components in React to increase engagement and simplify navigation.
+- Implemented clear, structured content presentation and strategic SEO optimizations, including metadata and schema markup, to highlight offerings and facilitate easy discovery and access for potential clients.

@@ -1,12 +1,12 @@
 {
   "name": "Juan Villela",
-  "occupation": "Software Engineer",
-  "location": "Washington D.C.",
+  "occupation": "Senior Software Engineer",
+  "location": "North Carolina",
   "avatar": "avatar.jpg",
   "pronouns": "he/him",
   "username": "fourjuaneight",
   "website": "https://juanvillela.dev",
-  "skills": ["React", "Redux", "Vue",  "NodeJS", "ExpressJS", "Jest/Vitest", "Cypress", "Docker"],
+  "skills": ["React", "Redux", "Vue", "NodeJS", "ExpressJS", "Jest/Vitest", "Cypress", "Docker"],
   "languages": ["HTML", "CSS/SCSS", "JavaScript/TypeScript", "SQL", "GraphQL", "Go"],
   "social": [
     {
