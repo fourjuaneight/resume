@@ -38,7 +38,7 @@
     "cssesc": "^3.0.0",
     "cssnano": "^5.1.15",
     "date-fns": "^2.30.0",
-    "esbuild": "^0.12.29",
+    "esbuild": "^0.25.0",
     "focus-visible": "^5.2.1",
     "html-minifier": "^4.0.0",
     "markdown-it": "^12.3.2",
