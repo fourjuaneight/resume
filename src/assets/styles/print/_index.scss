@@ -83,34 +83,46 @@
 
     .vcard__title {
       grid-column: 1/2;
-      grid-row: 1/3;
+      grid-row: 1/2;
       margin-right: auto;
     }
 
     .vcard__subtitle,
     .vcard__contact {
-      grid-column: 2/3;
-      justify-self: end;
-
       > * {
         white-space: nowrap;
       }
     }
 
-    .vcard__subtitle {
+    .vcard__contact {
+      grid-column: 2/3;
       grid-row: 1/2;
+      justify-self: end;
       margin-bottom: 0;
     }
 
-    .vcard__contact {
+    .vcard__subtitle {
+      grid-column: 1/2;
       grid-row: 2/3;
     }
   }
 
   .vcard__contact,
   .vcard__social {
-    display: flex;
     width: 100%;
+  }
+
+  .vcard__social {
+    display: flex;
+  }
+
+  .vcard__contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 0.25rem;
+    align-items: start;
+    justify-content: end;
   }
 
   .vcard__social {
@@ -122,18 +134,32 @@
   }
 
   .lead {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .vcard__link {
     &:last-child {
       margin-right: 0;
     }
+    &.u-email {
+      display: inline-flex;
+    }
+    svg.icon {
+      height: 16px;
+      width: 16px;
+    }
   }
 
   #section-introduction {
     .section__title {
       display: none;
+    }
+  }
+
+  #section-languages,
+  #section-skills {
+    .section__title {
+      font-size: 1.5rem;
     }
   }
 
@@ -182,6 +208,8 @@
   }
 
   .bulletlist {
-    max-height: 6rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 }

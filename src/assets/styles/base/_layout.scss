@@ -11,7 +11,7 @@ body {
 
   .header {
     grid-area: header;
-    padding: $spacing-y 0;
+    padding: $spacing-y 0 0;
   }
   .main {
     grid-area: main;

@@ -44,6 +44,10 @@
     .icon {
       margin-right: 0.125em;
     }
+
+    &.u-email {
+      display: none;
+    }
   }
 
   @include mq(md) {
