@@ -37,8 +37,8 @@ a {
   text-decoration-skip-ink: auto;
   text-decoration-thickness: from-font;
 
-  color: $primary-color;
-  color: var(--primary-color, $primary-color);
+  color: $secondary-color;
+  color: var(--secondary-color, $secondary-color);
 
   @include hover-focus {
     text-decoration: underline;
