@@ -1,6 +1,6 @@
 ---
 title: Full Stack Developer
-organization: Freelancer
+organization: Freelance | UpWork
 organizationUrl: https://www.upwork.com/freelancers/~0193b7b6d6aeb0b86d
 location: Remote
 start: 2017-09-12
