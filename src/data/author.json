@@ -8,7 +8,7 @@
   "website": "https://juanvillela.dev",
   "email": "juan@villela.co",
   "languages": ["HTML", "CSS/SCSS", "JavaScript/TypeScript", "SQL", "GraphQL"],
-  "skills": ["React", "Redux", "Vue", "NodeJS", "ExpressJS", "Vitest", "Playwright"],
+  "skills": ["React", "Redux", "Vue", "NodeJS", "ExpressJS", "Vitest", "Playwright", "Jenkins"],
   "social": [
     {
       "name": "Github",
