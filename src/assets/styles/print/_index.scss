@@ -44,6 +44,10 @@
 
   // ELEMENTS
   // PRINT STYLE ADJUSTMENTS
+  .entry[data-hidden='true'] {
+    display: none !important;
+  }
+
   .entry__time {
     color: #000;
   }
@@ -204,8 +208,6 @@
 
   .bulletlist {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
   }
 
   .bulletlist,
