@@ -5,6 +5,7 @@ organizationUrl: https://thebigpixel.net
 location: Remote
 start: 2020-05-01
 end: 2024-03-15
+order: 3
 ---
 
 - Led cross-functional teams of 3-5 developers to deliver 15+ client projects on time and within budget

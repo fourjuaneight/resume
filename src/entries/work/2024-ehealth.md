@@ -4,6 +4,7 @@ organization: eHealth
 organizationUrl: https://www.ehealthinsurance.com
 location: Remote
 start: 2024-03-18
+order: 1
 ---
 
 - Developed multiple health insurance shopping flows using Vue.js and GraphQL, enabling users to easily compare pricing and benefits across insurance providers to make informed purchasing decisions

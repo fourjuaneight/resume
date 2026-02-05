@@ -5,6 +5,7 @@ organizationUrl: https://www.upwork.com/freelancers/~0193b7b6d6aeb0b86d
 location: Remote
 start: 2017-09-12
 end: 2020-05-01
+order: 4
 ---
 
 - Excelled as a self-employed Full Stack Developer, building optimized, user-friendly static websites with Hugo, Jekyll, and Gatsby. Emphasizing on performance and scalability for businesses of every size

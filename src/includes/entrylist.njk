@@ -1,6 +1,6 @@
 {% if entries %}
     <ol class="entrylist" reversed>
-        {% for entry in entries | reverse %}
+        {% for entry in entries | sort(attribute='data.order') %}
         <li class="entrylist__item h-event {% if microformat %}{{ microformat }}{% endif %}">
             {% include "entry.njk" %}
         </li>

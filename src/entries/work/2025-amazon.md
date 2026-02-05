@@ -4,7 +4,8 @@ organization: Amazon | Global Realty
 organizationUrl: https://www.amazon.jobs/content/en/job-categories/facilities-maintenance-real-estate
 location: Remote
 start: 2025-02-22
-hidden: true
+end: 2025-01-05
+order: 2
 ---
 
 - Consulted on mission-critical Global Realty platform driving strategic real estate decisions across international markets for Amazon's fulfillment network expansion
