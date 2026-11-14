@@ -6,7 +6,7 @@
   "username": "fourjuaneight",
   "website": "https://juanvillela.dev",
   "email": "juan@villela.co",
-  "languages": ["JavaScript/TypeScript", "CSS/SCSS", "HTML", "SQL", "GraphQL"],
+  "languages": ["JavaScript/TypeScript", "CSS/SCSS", "HTML", "PostgreSQL", "MySQL", "GraphQL"],
   "skills": ["React", "Vue", "Angular", "NodeJS", "ExpressJS", "Jest/Vitest", "Cypress/Playwright", "Jenkins", "Docker", "AWS"],
   "social": [
     {
